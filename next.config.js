@@ -1,11 +1,16 @@
 /** @type {import('next').NextConfig} */
+const repo = 'dsagredog';
+const assetPrefix = `/${repo}/`;
+const basePath = `/${repo}`;
+
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['localhost'],
+        loader: 'imgix',
+        path: 'the "domain" of your Imigix source',
     },
-    basePath: '/dsagredog',
-    assetPrefix: '/dsagredog',
+    assetPrefix: assetPrefix,
+    basePath: basePath,
 };
 
 module.exports = nextConfig;
