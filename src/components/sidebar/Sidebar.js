@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { IoLogoWhatsapp, IoMailOutline } from 'react-icons/io5';
+import { FaDownload } from 'react-icons/fa';
 import myperfile from '../../img/perfile.png';
 
 const Sidebar = () => {
@@ -70,14 +71,9 @@ const Sidebar = () => {
                     download="#"
                     className="inline-flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] px-8 py-3 text-xs text-white rounded-[35px] mt-6"
                 >
-                    <Image
-                        src="https://bostami-next.vercel.app/images/download.png"
-                        alt="icon"
-                        width="0"
-                        height="0"
-                        sizes="1vw"
-                        className="mr-2 w-6 h-auto"
-                    />
+                    <div className="mr-2">
+                        <FaDownload className="text-base" />
+                    </div>
                     Descargar CV
                 </a>
             </div>
