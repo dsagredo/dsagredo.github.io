@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['localhost', 'bostami-next.vercel.app'],
+        domains: ['localhost'],
     },
     basePath: '/dsagredog',
     assetPrefix: '/dsagredog',
