@@ -2,12 +2,12 @@
 
 const nextConfig = {
     reactStrictMode: true,
+    //domains: ['localhost'],
     images: {
         loader: 'akamai',
         path: '',
     },
     assetPrefix: '/dsagredo',
-    basePath: '/dsagredo',
 };
 
 module.exports = nextConfig;
