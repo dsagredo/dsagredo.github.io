@@ -1,5 +1,5 @@
-import pokemonReact from '/images/album/pokemon-react.png';
-import pokemonNext from '/images/album/pokemon-next.png';
+import pokemonReact from '../../../public/images/album/pokemon-react.png';
+import pokemonNext from '../../../public/images/album/pokemon-next.png';
 
 const data = [
     {

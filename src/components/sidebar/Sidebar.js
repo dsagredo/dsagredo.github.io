@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { IoLogoWhatsapp, IoMailOutline } from 'react-icons/io5';
 import { FaDownload } from 'react-icons/fa';
-import myperfile from '../../img/perfile.png';
+import myperfile from '../../../public/images/perfile.png';
 
 const Sidebar = () => {
     return (
