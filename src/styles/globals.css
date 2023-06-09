@@ -23,7 +23,7 @@ body {
     background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
         rgb(var(--background-start-rgb));
 }
-/** MODIFICIA CSS **/
+
 .socialbtn {
     display: flex;
     height: 2.5rem;
@@ -57,4 +57,11 @@ body {
         rgb(255, 216, 0) 0 calc(100% - 9px),
         transparent 0
     );
+}
+
+h3 {
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }

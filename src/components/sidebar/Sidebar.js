@@ -17,7 +17,7 @@ const Sidebar = () => {
                 priority={true}
             />
             <div className="pt-[100px] bg-[#ffcb03] px-6 pb-8 border-2 border-black">
-                <p className="mt-6 mb-1 text-lg text-white">Hola 👋, Soy Diego Sagredo1</p>
+                <p className="mt-6 mb-1 text-lg text-white">Hola 👋, Soy Diego Sagredo</p>
                 <p className="mb-4 inline-block bg-[#1D1D1D] px-5 py-1.5 rounded-lg text-[#A6A6A6] ">
                     Front End Developer
                 </p>
@@ -42,7 +42,7 @@ const Sidebar = () => {
                             <p className="text-white break-all">
                                 <a
                                     className="hover:text-[#FA5252] text-xs duration-300 transition"
-                                    href="tel:+1234567890"
+                                    href="tel:+56930183607"
                                 >
                                     +56 9 3018 3607
                                 </a>
@@ -58,7 +58,7 @@ const Sidebar = () => {
                             <p className="text-white break-all">
                                 <a
                                     className="hover:text-[#FA5252] duration-300 transition text-xs"
-                                    href="mailto:ibthemes21@gmail.com"
+                                    href="mailto:dsagredog@gmail.com"
                                 >
                                     dsagredog@gmail.com
                                 </a>
