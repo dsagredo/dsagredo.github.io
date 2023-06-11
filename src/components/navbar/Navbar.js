@@ -17,12 +17,12 @@ const Navbar = () => (
                 </Link>
                 <Link
                     className="w-full h-20 mx-2.5 justify-center flex flex-col items-center text-xs bg-[#212425] hover:bg-gradient-to-r from-[#4243a0] to-[#2f2f6b]"
-                    href="/works"
+                    href="/projects"
                 >
                     <span className="text-xl mb-1">
                         <IoCodeWorkingSharp className="stroke-1" strokeWidth="1" />
                     </span>
-                    Portafolio
+                    Proyectos
                 </Link>
             </div>
         </nav>

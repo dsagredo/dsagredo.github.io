@@ -13,7 +13,6 @@ export default function App({ Component, pageProps }) {
         <>
             <Head>
                 <title>Diego Sagredo | Front-end Developer</title>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="apple-touch-icon" sizes="57x57" href="/public/apple-icon-57x57.png" />
                 <link rel="apple-touch-icon" sizes="60x60" href="/public/apple-icon-60x60.png" />
                 <link rel="apple-touch-icon" sizes="72x72" href="/public/apple-icon-72x72.png" />

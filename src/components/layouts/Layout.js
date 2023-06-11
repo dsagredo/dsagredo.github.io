@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
                 </div>
                 <div className="col-span-12 lg:col-span-8">
                     <Navbar />
-                    <div className="bg-[#212425] p-5">
+                    <div className="bg-[#212425] p-5 border border-white">
                         <div data-aos="fade" className="aos-init aos-animate">
                             <main>{children}</main>
                         </div>

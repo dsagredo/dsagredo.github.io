@@ -17,7 +17,8 @@ const Sidebar = () => {
                 priority={true}
             />
             <div className="pt-[100px] bg-[#ffcb03] px-6 pb-8 border-2 border-black">
-                <p className="mt-6 mb-1 text-lg text-white">Hola 👋, Soy Diego Sagredo</p>
+                <span className="mt-6 text-sm text-white">¡Hola!</span>
+                <p className="mb-1 text-lg text-white">Soy Diego Sagredo</p>
                 <p className="mb-4 inline-block bg-[#1D1D1D] px-5 py-1.5 rounded-lg text-[#A6A6A6] ">
                     Front End Developer
                 </p>
