@@ -68,8 +68,9 @@ const Sidebar = () => {
                     </div>
                 </div>
                 <a
-                    href="../../../public/download/CVDiegoSagredo.pdf"
+                    href="/files/CVDiegoSagredo.pdf"
                     download
+                    rel="noopener noreferrer"
                     className="inline-flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] px-8 py-3 text-xs text-white rounded-[35px] mt-6"
                 >
                     <div className="mr-2">
