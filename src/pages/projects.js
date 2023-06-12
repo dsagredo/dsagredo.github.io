@@ -119,10 +119,10 @@ const Projects = () => {
     };
 
     return (
-        <>
+        <div data-aos="fade">
             <h1 className="mb-4">{'<PORTAFOLIO>'}</h1>
             <ListItems />
-        </>
+        </div>
     );
 };
 

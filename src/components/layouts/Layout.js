@@ -5,29 +5,25 @@ import Sidebar from '../sidebar/Sidebar';
 import Navbar from '../navbar/Navbar';
 
 const proptypes = {
-    children: PropTypes.func,
+    children: PropTypes.object,
 };
 
-const Layout = ({ children }) => {
-    return (
-        <>
-            <Menu />
-            <div className="lg:container mx-auto grid grid-cols-12 lg:gap-10 lg:mt-[220px]">
-                <div className="lg:sticky top-44 col-span-12 lg:col-span-4 lg:h-screen">
-                    <Sidebar />
-                </div>
-                <div className="col-span-12 lg:col-span-8">
-                    <Navbar />
-                    <div className="bg-[#212425] p-5 border border-white">
-                        <div data-aos="fade" className="aos-init aos-animate">
-                            <main>{children}</main>
-                        </div>
-                    </div>
+const Layout = ({ children }) => (
+    <>
+        <Menu />
+        <div className="lg:container mx-auto grid grid-cols-12 lg:gap-10 lg:mt-[220px]">
+            <div className="lg:sticky top-44 col-span-12 lg:col-span-4 lg:h-screen">
+                <Sidebar />
+            </div>
+            <div className="col-span-12 lg:col-span-8">
+                <Navbar />
+                <div className="bg-[#212425] p-5 border border-white">
+                    <main>{children}</main>
                 </div>
             </div>
-        </>
-    );
-};
+        </div>
+    </>
+);
 
 Layout.propTypes = proptypes;
 
