@@ -40,7 +40,7 @@ const Projects = () => {
                         </div>
                         <div className="lg:col-span-7">
                             <p className="text-base">{title}</p>
-                            <div className="flex my-2">
+                            <div className="flex my-2 gap-2">
                                 {Object.values(
                                     icon.map((value, index) => (
                                         <div key={index}>{icons[value]}</div>
@@ -48,7 +48,7 @@ const Projects = () => {
                                 )}
                             </div>
                             <p className="text-xs">{description}</p>
-                            <div className="flex my-2">
+                            <div className="flex my-2 gap-4">
                                 <Link href={github} className="mr-2">
                                     <IoLogoGithub className="inline-block text-xl" />
                                     <span className="text-xs ml-1">Ver Código</span>
@@ -67,7 +67,7 @@ const Projects = () => {
                     <div className="grid lg:grid-cols-12 gap-6" key={id}>
                         <div className="lg:col-span-7">
                             <p className="text-base">{title}</p>
-                            <div className="flex my-2">
+                            <div className="flex my-2 gap-2">
                                 {Object.values(
                                     icon.map((value, index) => (
                                         <div key={index}>{icons[value]}</div>
@@ -75,7 +75,7 @@ const Projects = () => {
                                 )}
                             </div>
                             <p className="text-xs">{description}</p>
-                            <div className="flex my-2">
+                            <div className="flex my-2 gap-4">
                                 <Link href={github} className="mr-2">
                                     <IoLogoGithub className="inline-block text-xl" />
                                     <span className="text-xs ml-1">Ver Código</span>
