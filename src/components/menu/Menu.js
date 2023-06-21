@@ -5,17 +5,16 @@ import { IoHome, IoCodeWorkingSharp } from 'react-icons/io5';
 
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
-
     return (
         <>
             <div className="w-full flex items-center justify-between px-4 py-2 lg:pt-[8px] bg-[#ffcb03] lg:bg-transparent">
                 <Link href="/">
-                    <h3 className="text-2xl font-bold">Diego.dev</h3>
+                    <h3 className="text-2xl font-bold">DSagredo.dev</h3>
                 </Link>
                 <div className="flex items-center">
                     <span
                         onClick={() => setIsOpen(!isOpen)}
-                        className="lg:opacity-0 lg:invisible visible opacity-100 w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white text-3xl"
+                        className="lg:opacity-0 lg:invisible visible opacity-100 w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-black text-3xl"
                     >
                         {isOpen ? (
                             <AiOutlineClose strokeWidth="0" />
@@ -35,7 +34,7 @@ const Menu = () => {
                 >
                     <li className="mb-1 border-t-2 border-t-[#1D1D1D]">
                         <Link
-                            className="cursor-pointer font-poppins text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 px-2 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out hover:text-white hover:bg-gradient-to-r text-white linked"
+                            className="cursor-pointer mx-2.5 flex py-2.5 px-2 md:px-4 xl:px-5 text-black"
                             href="/"
                             onClick={() => setIsOpen(false)}
                         >
@@ -47,7 +46,7 @@ const Menu = () => {
                     </li>
                     <li className="mb-1 border-t-2 border-t-[#1D1D1D]">
                         <Link
-                            className="cursor-pointer font-poppins text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 px-2 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out hover:text-white hover:bg-gradient-to-r text-white linked"
+                            className="cursor-pointer mx-2.5 flex py-2.5 px-2 md:px-4 xl:px-5 text-black"
                             href="/projects"
                             onClick={() => setIsOpen(false)}
                         >

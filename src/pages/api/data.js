@@ -17,8 +17,7 @@ const data = [
         id: 2,
         image: pokemonNext,
         title: 'Pokémon App con NextJS',
-        description:
-            'This was my final year software project and it is a system for monitoring progress of final year students. It has three levels of users i.e Students, Supervisors and the Project Coordinator. The output of the system is a list of students who have completed their projects.',
+        description: 'Aplicación de la Pokedex simple creada utilizando NextJS y PokeAPI',
         github: 'https://github.com/dsagredo/project-pokemon-nextjs',
         url: 'https://project-pokemon-nextjs.vercel.app/',
         icon: ['nextjs', 'typescript'],

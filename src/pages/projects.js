@@ -39,7 +39,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="lg:col-span-7">
-                            <p className="text-base">{title}</p>
+                            <p className="text-sm lg:text-base">{title}</p>
                             <div className="flex my-2 gap-2">
                                 {Object.values(
                                     icon.map((value, index) => (
@@ -66,7 +66,7 @@ const Projects = () => {
                 <div key={id}>
                     <div className="grid lg:grid-cols-12 gap-6" key={id}>
                         <div className="lg:col-span-7">
-                            <p className="text-base">{title}</p>
+                            <p className="text-sm lg:text-base">{title}</p>
                             <div className="flex my-2 gap-2">
                                 {Object.values(
                                     icon.map((value, index) => (
@@ -82,7 +82,7 @@ const Projects = () => {
                                 </Link>
                                 <Link href={url}>
                                     <HiLink className="inline-block text-xl" />
-                                    <span className="text-sm/[17px] ml-1">Ver Demo</span>
+                                    <span className="text-xs ml-1">Ver Demo</span>
                                 </Link>
                             </div>
                         </div>
