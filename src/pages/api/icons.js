@@ -5,6 +5,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 import { SiMongodb, SiTypescript, SiTailwindcss, SiPostman } from 'react-icons/si';
 import { BsGithub } from 'react-icons/bs';
 import { TbBrandVscode } from 'react-icons/tb';
+import { SiPrisma } from 'react-icons/si';
 
 const icons = {
     reactjs: <IoLogoReact className="text-3xl" fill="#60dbfb" />,
@@ -19,6 +20,7 @@ const icons = {
     vscode: <TbBrandVscode className="text-3xl" fill="#3dabf2" />,
     gitlab: <IoLogoGitlab className="text-3xl" fill="#e24328" />,
     postman: <SiPostman className="text-3xl" fill="#fe6c37" />,
+    prisma: <SiPrisma className="text-3xl" fill="#123A50" />,
 };
 
 export default icons;

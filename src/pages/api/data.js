@@ -1,5 +1,6 @@
 import pokemonReact from '../../../public/images/album/pokemon-react.png';
 import pokemonNext from '../../../public/images/album/pokemon-next.png';
+import tesloNext from '../../../public/images/album/teslo-next.png';
 
 const data = [
     {
@@ -22,6 +23,17 @@ const data = [
         url: 'https://project-pokemon-nextjs.vercel.app/',
         icon: ['nextjs', 'typescript'],
         status: false,
+    },
+    {
+        id: 3,
+        image: tesloNext,
+        title: 'Teslo Shop App con NextJS',
+        description:
+            'TesloShop: Aplicación completa y bastante grande para el manejo y venta de productos utilizando NextJS y Prisma Client',
+        github: 'https://github.com/dsagredo/project-teslo-shop-nextjs',
+        url: 'https://teslo-mercado.vercel.app/',
+        icon: ['nextjs', 'typescript', 'tailwind', 'prisma'],
+        status: true,
     },
 ];
 
