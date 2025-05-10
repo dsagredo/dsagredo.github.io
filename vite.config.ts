@@ -7,5 +7,5 @@ export default defineConfig({
     optimizeDeps: {
         exclude: ['lucide-react'],
     },
-    base: 'https://dsagredo.github.io/',
+    base: '/dsagredo.github.io',
 });
