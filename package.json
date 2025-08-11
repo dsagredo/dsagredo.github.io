@@ -1,8 +1,8 @@
 {
-    "name": "dsagredo.github.io",
+    "name": "dsagredo",
+    "homepage": "https://dsagredo.github.io/",
     "private": true,
     "version": "1.0.0",
-    "homepage": "https://dsagredo.github.io/",
     "type": "module",
     "scripts": {
         "dev": "vite",
